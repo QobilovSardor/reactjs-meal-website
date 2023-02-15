@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background: #212529;
   color: white;
 }
@@ -13,4 +17,7 @@ footer a {
 }
 footer a:hover {
   color: rgb(11, 239, 235);
+}
+.main-content {
+  background: #000;
 }

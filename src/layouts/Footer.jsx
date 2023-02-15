@@ -1,12 +1,12 @@
-// import {Footer} from 'reactstrap'
 
 function Footer() {
   return (
-   <footer>
-    <div className="container">
-      <a href="https://t.me/SardorQobilov">Sardor Qobilov & sardorqobilov555@gmail.com</a>
-    </div>
-   </footer>
+    <footer className="py-2 text-center">
+      <div className="container">
+        <a href="https://t.me/SardorQobilov">Sardor Qobilov</a> <br />
+        <span>sardorqobilov555@gmail.com</span>
+      </div>
+    </footer>
   );
 }
 
