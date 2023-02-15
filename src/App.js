@@ -1,9 +1,12 @@
+import Footer from "./layouts/Footer";
+import Header from "./layouts/Heder";
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <>
+      <Header />
+      <Footer />
+    </>
   );
 }
 
