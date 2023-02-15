@@ -18,7 +18,6 @@ function MealsList() {
     getMealId(id).then(data => setRecipe(data.meals[0]))
   }, [])
 
-
   return (
     <div className="container my-5">
       <Button color="primary" onClick={() => goBack(-1)} className='mb-5'>

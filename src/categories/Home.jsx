@@ -4,12 +4,11 @@ import Loader from "../layouts/Loader";
 import Category from "./Category";
 
 function Home() {
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
   const [meals, setMeals] = useState([]);
 
 
   useEffect(() => {
-    setLoading(true)
     getAllCategoris().then(data => {
       setMeals(data.categories)
       setLoading(false)
