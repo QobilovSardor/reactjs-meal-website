@@ -7,12 +7,12 @@ const getMealId  = async (mealId) => {
 
 const getAllCategoris = async () => {
   const response = await fetch(API_URL + 'categories.php')
-  return await response
+  return await response.json();
 }
 
 const getFilterCategory = async (categoryName) => {
   const response = await fetch(API_URL + 'filter.php?i=' + categoryName)
-  return await response
+  return await response.json();
 }
 
 export {getMealId, getAllCategoris, getFilterCategory}

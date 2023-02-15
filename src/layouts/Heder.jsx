@@ -11,7 +11,7 @@ function Header() {
         <NavbarBrand href="#!" className="d-flex align-items-center">
           <img
             alt="logo"
-            src='./images/logo.svg'
+            src='../images/logo.svg'
             style={{
               height: 40,
               width: 40
