@@ -75,7 +75,9 @@
 }
 
 .loader {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
 	background-color: var(--bg);
 	font: 1em/1.5 sans-serif;

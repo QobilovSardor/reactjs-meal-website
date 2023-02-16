@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import {Navbar, NavbarBrand } from "reactstrap";
 
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
       dark
     >
       <div className="container">
-        <NavbarBrand href="#!" className="d-flex align-items-center">
+        <div className="d-flex align-items-center">
           <Link to='/' style={{color: 'white', textDecoration: 'none', display: 'flex'}}>
             <img
               alt="logo"
@@ -21,7 +21,7 @@ function Header() {
             />
             ReactJS meal website
           </Link>
-          </NavbarBrand>
+        </div>
       </div>
     </Navbar>
   );
