@@ -8,7 +8,7 @@ function SearchBar({cb = Function.prototype}) {
   const handlerKey = (e) => {
     if (e.key === 'Enter') {
       handlerSubmit();
-      value = ''
+      setValue('');
     }
   }
 

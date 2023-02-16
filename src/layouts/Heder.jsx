@@ -1,5 +1,5 @@
-import { Link, NavLink } from "react-router-dom";
-import {Navbar, NavbarBrand } from "reactstrap";
+import { Link } from "react-router-dom";
+import { Navbar } from "reactstrap";
 
 function Header() {
   return (
