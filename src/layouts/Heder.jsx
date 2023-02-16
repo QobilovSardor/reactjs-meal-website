@@ -9,8 +9,8 @@ function Header() {
       dark
     >
       <div className="container">
-        <div className="d-flex align-items-center">
-          <Link to='/' style={{color: 'white', textDecoration: 'none', display: 'flex'}}>
+        <div>
+          <Link to='/' style={{color: 'white', textDecoration: 'none', display: 'flex', alignItems: 'center'}}>
             <img
               alt="logo"
               src='../images/logo.svg'
