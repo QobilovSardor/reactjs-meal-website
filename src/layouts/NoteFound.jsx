@@ -6,7 +6,7 @@ function NoteFound() {
     <div id='oopss'>
     <div id='error-text'>
         <img src="https://cdn.rawgit.com/ahmedhosna95/upload/1731955f/sad404.svg" alt="404" />
-        <span>PAGE NOTE FOUND 404</span>
+        <span> 404</span>
         <p className="p-a">
           . The meal you were looking for could not be found</p>
         <p className="p-b">
